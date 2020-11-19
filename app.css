@@ -1,0 +1,15 @@
+.homePage {
+    margin: 40px;
+    border: 1px solid purple;
+    padding: 20px
+  }
+  
+  .results {
+    margin: 40px;
+    border: 1px solid purple;
+    padding: 20px
+  }
+  
+  h1, .question, .score, .question-form {
+    text-align: center;
+  }
