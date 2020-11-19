@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Anime Quiz</h1>
+  </header>
+  <main>
+    <div class="homePage">
+        <p>This quiz will test your basic knowledge of anime.</p>
+        <button id='startQuiz'>Start Quiz</button>
+    <form class='question-form'>
+    <div class='question'>Question: 1/5</div>
+    <div class='score'>Score: 0</div>
+    <div class="questions">What is the anime with ninjas?</div>
+    <div class="answers"><p>'Naruto Bleach Erased'</p></div>
+    <button type="submit">Submit</button>
+    <div class="feedback">Correct/Incorrect</div>
+  </form>
+    <div class="results">
+      <h2>You have completed the quiz!</h2>
+      <p>Final Score: 0.</p>
+      <button id='restartQuiz'>Restart Quiz</button>
+    
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
